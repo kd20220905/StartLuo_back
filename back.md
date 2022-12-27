@@ -3,64 +3,64 @@
 ## 官網主頁
 ```
 {
-	imageUrl: File, 背景圖片
-	image_1: File, 左圖
-	image_2: File, 右圖
+  imageUrl: File, 背景圖片
+  image_1: File, 左圖
+  image_2: File, 右圖
 }
 ```
 
 ## 發財開始囉
 ```
 {
-	imageUrl:File, 背景圖片
-	detailImage: File, 活動資訊 (待確認)
-	detailImage_phone: File, 活動資訊_手機 (待確認)
-	eventRule: String, 活動規則
-	titleImage: File, 主題名稱
-	startTime: String, 開始時間(時間格式)
-	timeText: String, 活動時間(用戶自訂義內容)
-	locationText: String, 活動地點(用戶自訂義內容)
-	btnImage_1: File, 按鈕1
-	btnImage_2: File, 按鈕2
-	link_1: String, 按鈕連結1
-	link_2: String 按鈕連結2
+  imageUrl:File, 背景圖片
+  detailImage: File, 活動資訊 (待確認)
+  detailImage_phone: File, 活動資訊_手機 (待確認)
+  eventRule: String, 活動規則
+  titleImage: File, 主題名稱
+  startTime: String, 開始時間(時間格式)
+  timeText: String, 活動時間(用戶自訂義內容)
+  locationText: String, 活動地點(用戶自訂義內容)
+  btnImage_1: File, 按鈕1
+  btnImage_2: File, 按鈕2
+  link_1: String, 按鈕連結1
+  link_2: String 按鈕連結2
 }
 ```
 
 ## 賺錢開始鑼
 ```
 {
-	imageUrl:File, 背景圖片
-	detailImage: File, 活動資訊 (待確認)
-	detailImage_phone: File, 活動資訊_手機 (待確認)
-	eventRule: String, 活動規則
-	titleImage: File, 主題名稱
-	startTime: String, 開始時間(時間格式)
-	timeText: String, 活動時間(用戶自訂義內容)
-	locationText: String, 活動地點(用戶自訂義內容)
-	btnImage_1: File, 按鈕1
-	btnImage_2: File, 按鈕2
-	link_1: String, 按鈕連結1
-	link_2: String 按鈕連結2
+  imageUrl:File, 背景圖片
+  detailImage: File, 活動資訊 (待確認)
+  detailImage_phone: File, 活動資訊_手機 (待確認)
+  eventRule: String, 活動規則
+  titleImage: File, 主題名稱
+  startTime: String, 開始時間(時間格式)
+  timeText: String, 活動時間(用戶自訂義內容)
+  locationText: String, 活動地點(用戶自訂義內容)
+  btnImage_1: File, 按鈕1
+  btnImage_2: File, 按鈕2
+  link_1: String, 按鈕連結1
+  link_2: String 按鈕連結2
 }
 ```
 
 ## 最新活動
 ```
 {
-	imageUrl: file, 背景圖片
-	titleImage: file, 主題名稱
-	content: String, 內文 ** 26 碼以內
-	cards: [
-		{
-			imageUrl: File, 圖片
-			startTime: String, 活動時間
-			locationText: String, 活動地點
-			titleText: String, 活動主題
-			btnText: String, 按鈕文字
-			link: String 按鈕連結
-		},
-	]
+  imageUrl: file, 背景圖片
+  titleImage: file, 主題名稱
+  content: String, 內文 ** 26 碼以內
+  cards: [
+    {
+      imageUrl: File, 圖片
+      startTime: String, 活動時間
+      locationText: String, 活動地點
+      titleText: String, 活動主題
+      btnText: String, 按鈕文字
+      link: String 按鈕連結
+    },
+  ]
 }
 ```
 
