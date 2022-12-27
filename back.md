@@ -67,57 +67,55 @@
 ## 音樂祭活動
 ```
 {
-	imageUrl: File, 背景圖
-	titleImage: File, 主題名稱
-	contentImage: File, 宣傳圖
-	startTime: String, 開始時間(時間格式)
-	timeText: String, 活動時間(用戶自訂義內容)
-	locationText: String, 活動地點(用戶自訂義內容)
-	btnImage: File, 按鈕
-	link: String, 按鈕連結
+  imageUrl: File, 背景圖
+  titleImage: File, 主題名稱
+  contentImage: File, 宣傳圖
+  startTime: String, 開始時間(時間格式)
+  timeText: String, 活動時間(用戶自訂義內容)
+  locationText: String, 活動地點(用戶自訂義內容)
+  btnImage: File, 按鈕
+  link: String, 按鈕連結
 }
 ```
 
 ## 沙漏活動
 ```
 {
-	eventRule: String, 活動規則
+  eventRule: String, 活動規則
 }
 ```
 
 ## 皂飛車活動
 ```
 {
-	timeText: String, 活動時間(用戶自訂義內容)
-	locationText: String, 活動地點(用戶自訂義內容)
-	eventRule: String, 活動規則
+  timeText: String, 活動時間(用戶自訂義內容)
+  locationText: String, 活動地點(用戶自訂義內容)
+  eventRule: String, 活動規則
 }
 ```
 
 ## 品牌與名人
 ```
 {
-	cards: [
-	{
-		ImageUrl: File, 左圖
-		titleText: String, 左主題
-	},
-	{
-		ImageUrl: File, 右圖
-		titleText: String, 右主題
-	}
-	]
-	brands: [Flie, Flie, ...] 品牌列表
+  cards: [{
+    ImageUrl: File, 左圖
+    titleText: String, 左主題
+  },
+  {
+    ImageUrl: File, 右圖
+    titleText: String, 右主題
+  }]
+  brands: [Flie, Flie, ...] 品牌列表
 }
 ```
 
 ## 關於我們
 ```
 {
-	personalInfo: String, 個人資料
-	gameManage: String, 遊戲管理
-	usersContract: String, 使用者契約
-	returnHandle: String, 退貨處理
-	privacy: String, 隱私權
+  personalInfo: String, 個人資料
+  gameManage: String, 遊戲管理
+  usersContract: String, 使用者契約
+  returnHandle: String, 退貨處理
+  privacy: String, 隱私權
 }
 ```
