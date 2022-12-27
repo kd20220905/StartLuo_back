@@ -1,5 +1,5 @@
 # StartLuo
-* File 可能改為 CDN
+* File 可能改為 CDN (S)
 ## 官網主頁
 ```
 {
