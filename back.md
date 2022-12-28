@@ -19,8 +19,7 @@
     btnImage: File, 按鈕
     link: String, 按鈕連結
   }
-
-  image_2: File, 右圖
+  ]
 }
 ```
 
