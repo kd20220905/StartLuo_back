@@ -105,6 +105,8 @@
   timeText: String, 活動時間(用戶自訂義內容)
   locationText: String, 活動地點(用戶自訂義內容)
   eventRule: String, 活動規則
+  btnImage: File, 按鈕
+  link: String, 按鈕連結
 }
 ```
 
