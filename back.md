@@ -4,7 +4,22 @@
 ```
 {
   imageUrl: File, 背景圖片
-  image_1: File, 左圖
+  events: [
+  {
+    titleImage: File, 主題名稱
+    image: File, 左圖
+    startTime: String, 開始時間(時間格式)
+    btnImage: File, 按鈕
+    link: String, 按鈕連結
+  },
+  {
+    titleImage: File, 主題名稱
+    image: File, 左圖
+    startTime: String, 開始時間(時間格式)
+    btnImage: File, 按鈕
+    link: String, 按鈕連結
+  }
+
   image_2: File, 右圖
 }
 ```
